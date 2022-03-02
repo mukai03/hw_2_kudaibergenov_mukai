@@ -16,7 +16,7 @@ public class Main {
 
     public static String walk(int personsAge, int temperature) {
         String mercedes = "Можно идти гулять";
-        String joe = "Нельзя идти гулять";
+        String joe = "Оставайтесь дома";
         if (personsAge >= 20 && personsAge <= 45 && temperature >= -20 && temperature <= 30) {
             return mercedes;
         } else if (personsAge <= 20 && temperature > 0 && temperature <= 28) {
